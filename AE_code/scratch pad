@@ -1,0 +1,19 @@
+cd /home/student5/robotics/Teleoperation/libfranka/build/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/generate_elbow_motion.dir/generate_elbow_motion.cpp.o -c /home/student5/robotics/Teleoperation/libfranka/examples/generate_elbow_motion.cpp
+
+
+/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/generate_elbow_motion.dir/generate_elbow_motion.cpp.o -c /home/student5/robotics/Teleoperation/libfranka/examples/generate_elbow_motion.cpp
+
+
+$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/generate_elbow_motion.dir/link.txt --verbose=$(VERBOSE)
+
+
+
+/usr/bin/c++ -I/home/student5/robotics/Teleoperation/libfranka/include -isystem /usr/include/eigen3 -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o CMakeFiles/generate_elbow_motion.dir/generate_elbow_motion.cpp.o -c /home/student5/robotics/Teleoperation/libfranka/examples/generate_elbow_motion.cpp
+
+
+
+
+/usr/bin/c++ -I/home/student5/robotics/Teleoperation/libfranka/include -isystem /usr/include/eigen3 -O3 -DNDEBUG   -Wall -Wextra -std=gnu++14 -o generate_elbow_motion.cpp.o -c /home/student5/robotics/Teleoperation/libfranka/examples/generate_elbow_motion.cpp
+
+
+/usr/bin/c++  -O3 -DNDEBUG   generate_elbow_motion.cpp.o  -o generate_elbow_motion  -Wl,-rpath,/home/student5/robotics/Teleoperation/libfranka/build: /home/student5/robotics/Teleoperation/libfranka/build/examples/libexamples_common.a /home/student5/robotics/Teleoperation/libfranka/build/libfranka.so.0.8.0 
